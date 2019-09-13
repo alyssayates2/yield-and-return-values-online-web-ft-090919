@@ -8,6 +8,6 @@ def hello(array)
   end
   collection
 end
-binding.pry 
+
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
